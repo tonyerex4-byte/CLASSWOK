@@ -1,67 +1,82 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snow Leopard</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background-color: #126000;
-      font-family: Arial, sans-serif;
-      padding: 21px 30px;
-    }
-
-    .animal-card {
-      width: 220px;
-      min-height: 203px;
-      padding: 18px 16px;
-      background-color: #ffffdf;
-      border: 3px solid #75a94e;
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
-    }
-
-    h3 {
-      margin: 10px 0 14px;
-      color: #318b36;
-      font-size: 15px;
-    }
-
-    p {
-      margin: 0 0 11px;
-      color: #455c4e;
-      font-size: 11.5px;
-      line-height: 1.25;
-    }
-
-    .fact {
-      margin-top: 12px;
-      color: #ff9418;
-      font-style: italic;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Media Adventure</title>
 </head>
 
 <body>
-  <div class="animal-card">
-    <h3>Snow Leopard</h3>
 
-    <p>Type: Big Cat</p>
+  <center>
 
-    <p>Lives in: Mountain ranges of Central Asia</p>
+    <h1>My Media Adventure Webpage</h1>
 
-    <p>Diet: Deer, goats, and wild sheep</p>
-
-    <p class="fact">
-      Cool Fact: Can leap up to 15 metres in one jump!
+    <p>
+      Welcome to my fun webpage! Here, you can explore images, listen to music, watch a video, and play a game.
     </p>
-  </div>
+
+    <hr>
+
+    <h2>Space mission gallery</h2>
+
+    <p>
+      These images show my exciting space adventure.
+    </p>
+
+    <img src="rocket.png" alt="A rocket flying into space" width="300" height="300">
+    <img src="planet.png" alt="A colourful planet in space" width="300" height="300">
+    <img src="astronaut.png" alt="An astronaut exploring space" width="300" height="300">
+
+    <hr>
+
+    <h2>Aquatic beats party</h2>
+
+    <p>
+      Play the music and enjoy the aquatic animal video.
+    </p>
+
+    <audio controls loop>
+      <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+
+    <br><br>
+
+    <video width="500" height="350" controls poster="poster.png" loop>
+      <source src="aqua.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <h2>Super game zone</h2>
+
+    <p>
+      Play this Scratch game directly inside the webpage.
+    </p>
+
+    <iframe 
+      src="https://scratch.mit.edu/projects/60917032/embed"
+      allowtransparency="true"
+      width="500"
+      height="400"
+      frameborder="0"
+      scrolling="no"
+      allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <h2>Mission complete!</h2>
+
+    <p>
+      I used image, audio, video, and iframe tags to make this HTML media webpage.
+    </p>
+
+  </center>
+
 </body>
+
 </html>
